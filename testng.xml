@@ -1,0 +1,8 @@
+<suite name="MaSuiteDeTest">
+    <test name="TestsFonctionnels">
+        <classes>
+            <class name="CreateAccountTest" />
+            <class name="LoginTest" />
+        </classes>
+    </test>
+</suite>

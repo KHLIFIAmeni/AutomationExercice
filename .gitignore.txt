@@ -1,0 +1,30 @@
+# === Fichiers générés par Maven ===
+/target/
+
+# === Fichiers spécifiques à Eclipse ===
+.classpath
+.project
+.settings/
+
+# === Fichiers temporaires / système ===
+*.log
+*.tmp
+*.bak
+*.swp
+
+# === Mac OS ===
+.DS_Store
+
+# === Windows ===
+Thumbs.db
+Desktop.ini
+
+# === Répertoires de résultats de test ===
+/test-output/
+/surefire-reports/
+
+# === Autres IDEs (au cas où le projet soit ouvert ailleurs) ===
+.idea/
+*.iml
+out/
+.vscode/
