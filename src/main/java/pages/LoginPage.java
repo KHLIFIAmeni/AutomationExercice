@@ -23,8 +23,9 @@ public class LoginPage {
 	private By loginPassword = By.xpath("//input[@data-qa='login-password']");
 	private By loginButton = By.xpath("//button[@data-qa='login-button']");
 	
+	
 	// Message erreur champ
-	private By errorMessage = By.xpath("//p[normalize-space()='Your email or password is incorrect!']");
+	private By errorMessage = By.xpath("//p[contains(text(),'Your email or password is incorrect!')]");
 	
 	// functions signup
 	public void enterName(String name) {

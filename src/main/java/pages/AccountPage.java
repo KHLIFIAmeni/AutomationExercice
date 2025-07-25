@@ -7,7 +7,7 @@ public class AccountPage {
 	private WebDriver driver;
 
 	public AccountPage(WebDriver driver) {
-		super();
+	
 		this.driver = driver;
 	}
 	private By loggedInText = By.xpath("//a[contains(text(),'Logged in as')]");
